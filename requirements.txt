@@ -1,0 +1,8 @@
+gymnasium==0.29.1
+imageio==2.34.1
+matplotlib==3.8.4
+numpy==2.0.0
+opencv_python==4.9.0.80
+Pillow==10.3.0
+scipy==1.14.0
+torch==2.3.0
