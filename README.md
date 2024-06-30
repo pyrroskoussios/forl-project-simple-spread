@@ -8,24 +8,26 @@ This repository, contains all code used to generate results for our FoRL project
 
 All code written by us can be found under the `src/` directory. It is structured as follows:
 
+```
+src/
+├── default_config.json
+├── agents/
+│   ├── algorithms/
+│   │   ├── ppo.py
+│   │   ├── variant_one.py
+│   │   └── variant_two.py
+│   ├── networks/
+│   │   ├── mlp.py
+│   │   └── rnn.py
+│   ├── disruptor.py
+│   └── manager.py
+├── arguments.py
+├── environment.py
+├── logger.py
+├── main.py
+└── default_config.json
+```
 
-src/\
-├── agents/\
-│   ├── algorithms/\
-│   │   ├── ppo.py\
-│   │   ├── variant_one.py\
-│   │   └── variant_two.py\
-│   ├── networks/\
-│   │   ├── mlp.py\
-│   │   └── rnn.py\
-│   ├── disruptor.py\
-│   └── manager.py\
-├── arguments.py\
-├── environment.py\
-├── logger.py\
-├── main.py\
-└── default_config.json\
-\
 
 A brief breakdown of the files and directories responsibilities:
 
